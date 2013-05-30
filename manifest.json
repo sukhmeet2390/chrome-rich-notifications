@@ -1,0 +1,15 @@
+{
+  "name": "Notifications",
+  "description": "blah blah",
+  "manifest_version" : 2,
+  "version" : "0.1",
+  "app" : {
+    "background" : {
+	  "scripts" : ["app.js"]
+    }
+  }, 
+  "permissions" : [
+     "notifications",
+     "http://i.talk.to/*"
+  ]
+}
